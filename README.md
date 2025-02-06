@@ -19,7 +19,7 @@ No installation required, but ensure you have Python installed.
 Run the script from the command line:
 
 ```sh
-python search_script.py /path/to/search -o report.md -d /path/to/output
+python manspider_markdown.py /path/to/search -o report.md -d /path/to/output
 ```
 
 ### Arguments
@@ -31,7 +31,7 @@ python search_script.py /path/to/search -o report.md -d /path/to/output
 
 ### Example
 ```sh
-python search_script.py /home/user/documents -o findings.md -d /home/user/reports
+python manspider_markdown.py /home/user/documents -o findings.md -d /home/user/reports
 ```
 This will search /home/user/documents, generate findings.md, and save it in /home/user/reports.
 
